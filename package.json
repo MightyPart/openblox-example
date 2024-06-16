@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "type": "commonjs",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@isaacs/ttlcache": "^1.4.1",
+    "dotenv": "^16.4.5",
+    "typeforge": "0.0.11"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "version": "0.0.1-alpha.2"
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "target": "esnext",
+    "moduleResolution": "NodeNext",
+    "moduleDetection": "force",
+    "composite": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "strictBindCallApply": true,
+    "noErrorTruncation": true,
+
+    "outDir": "dist", // Output directory
+    "rootDir": "src", // Source directory
+    "baseUrl": ".",
+  },
+  "include": [ "./src" ],
+  "exclude": [ "node_modules" ]
+}
